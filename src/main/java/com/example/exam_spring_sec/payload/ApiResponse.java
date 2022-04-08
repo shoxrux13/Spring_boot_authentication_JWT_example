@@ -8,11 +8,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Data
 public class ApiResponse {
-    private String message;
 
-    private boolean isSuccess;
+    Object data;
 
-    private Object data;
+    String massage;
 
-
+    boolean isSuccess;
 }

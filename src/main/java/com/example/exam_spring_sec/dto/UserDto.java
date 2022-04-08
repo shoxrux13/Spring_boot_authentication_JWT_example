@@ -4,13 +4,10 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-
-import java.util.List;
-
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-public class BookDto {
-    private String name;
-    private Double price;
+public class UserDto {
+    private String username;
+    private String password;
 }
